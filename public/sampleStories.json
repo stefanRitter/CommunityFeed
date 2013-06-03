@@ -11,7 +11,8 @@
                 "./images/02.png"
               ],
     "titleImage": 0,
-    "URL": ""
+    "URL": "",
+    "public": 0
   },
   { 
     "id": 1,
@@ -25,7 +26,8 @@
                 "./images/02.png"
               ],
     "titleImage": 0,
-    "URL": ""
+    "URL": "",
+    "public": 0
   },
   { 
     "id": 2,
@@ -39,6 +41,7 @@
                 "./images/02.png"
               ],
     "titleImage": 0,
-    "URL": ""
+    "URL": "",
+    "public": 0
   }
 ]

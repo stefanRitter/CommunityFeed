@@ -1,5 +1,5 @@
 #
-# defines story view
+# defines story and stories view
 
 
 class CommunityFeed.Views.Story extends Backbone.View

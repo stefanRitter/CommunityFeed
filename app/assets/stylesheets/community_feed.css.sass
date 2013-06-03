@@ -9,13 +9,15 @@
 .float-left
   float: left
 
+.hidden
+  opacity: 0
 
 // ********************************************************************************** MAIN HEADER & NAVIGATION
 .mainHeader
   width: 100%
   position: absolute
   top: 0
-  height: 4em
+  height: 5.6em
 
   .imgTop
     display: block
@@ -24,6 +26,7 @@
   nav
     width: 100%
     height: 2.7em
+    overflow: hidden
     text-align: center
 
     .home-btn
@@ -77,6 +80,7 @@
 
     .signup-box
       padding-top: 8px
+
       &.signedIn
         float: right
         padding-right: 3.3em
@@ -98,13 +102,15 @@
         cursor: pointer
         text-shadow: 0 0 2px #888
         vertical-align: middle
-        padding: 5px 8px
+        padding: 4px 8px
 
       input[type=text]
         height: 1.8em
         background: none
         border: dashed 1px grey
         color: white
+        &:focus
+          outline: none
 
 .darkGradientBackground
   background-color: rgb(40, 40, 40)
@@ -139,3 +145,30 @@
     height: 5em
     background-color: blue
 
+
+// ********************************************************************************** USER PROFILE & NEW STORY
+%sideSliders
+  position: fixed
+  top: 30%
+  width: 40%
+  +transition(all 0.5s ease-in-out)
+  img
+    width: 100%
+
+.newStory
+  @extend %sideSliders
+  right: 0
+
+  &.slide
+    +transform(translate(95.5%, 0))
+  &:hover
+    +transform(translate(0, 0))
+
+.userProfile
+  @extend %sideSliders
+  left: 0
+
+  &.slide
+    +transform(translate(-95.5%, 0))
+  &:hover
+    +transform(translate(0, 0))
