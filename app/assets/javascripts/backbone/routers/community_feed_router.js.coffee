@@ -10,9 +10,9 @@ class CommunityFeed.Routers.CommunityFeedRouter extends Backbone.Router
 
   feed: ->
     @header = new CommunityFeed.Views.Header()
-    @stories = new CommunityFeed.Views.Stories( collection: CommunityFeed.stories )
-    @user_profile = new CommunityFeed.Views.User( model: CommunityFeed.user )
-    @newStory_form = new CommunityFeed.Views.NewStory( model: CommunityFeed.user )
+    @stories = new CommunityFeed.Views.Stories( {'collection': CommunityFeed.stories, 'model': CommunityFeed.user} )
+    @user_profile = new CommunityFeed.Views.User( 'model': CommunityFeed.user )
+    @newStory_form = new CommunityFeed.Views.NewStory( 'model': CommunityFeed.user )
 
     $body = $('body')
     $body.append @header.render().el

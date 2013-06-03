@@ -4,21 +4,6 @@
     "title": "",
     "description": "",
     "priority": 5,
-    "size" : "normal",
-    "video": "",
-    "images": [
-                "./images/01.png",
-                "./images/02.png"
-              ],
-    "titleImage": 0,
-    "URL": "",
-    "public": 0
-  },
-  { 
-    "id": 1,
-    "title": "",
-    "description": "",
-    "priority": 10,
     "size" : "big",
     "video": "",
     "images": [
@@ -27,14 +12,14 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": 0
+    "public": true
   },
   { 
-    "id": 2,
+    "id": 1,
     "title": "",
     "description": "",
-    "priority": 0,
-    "size" : "tall",
+    "priority": 10,
+    "size" : "normal",
     "video": "",
     "images": [
                 "./images/01.png",
@@ -42,6 +27,111 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": 0
+    "public": false
+  },
+  { 
+    "id": 2,
+    "title": "",
+    "description": "",
+    "priority": 0,
+    "size" : "normal",
+    "video": "",
+    "images": [
+                "./images/01.png",
+                "./images/02.png"
+              ],
+    "titleImage": 0,
+    "URL": "",
+    "public": false
+  },
+  { 
+    "id": 3,
+    "title": "",
+    "description": "",
+    "priority": 5,
+    "size" : "normal",
+    "video": "",
+    "images": [
+                "./images/01.png",
+                "./images/02.png"
+              ],
+    "titleImage": 0,
+    "URL": "",
+    "public": false
+  },
+  { 
+    "id": 4,
+    "title": "",
+    "description": "",
+    "priority": 10,
+    "size" : "normal",
+    "video": "",
+    "images": [
+                "./images/01.png",
+                "./images/02.png"
+              ],
+    "titleImage": 0,
+    "URL": "",
+    "public": true
+  },
+  { 
+    "id": 5,
+    "title": "",
+    "description": "",
+    "priority": 0,
+    "size" : "normal",
+    "video": "",
+    "images": [
+                "./images/01.png",
+                "./images/02.png"
+              ],
+    "titleImage": 0,
+    "URL": "",
+    "public": false
+  },
+  { 
+    "id": 6,
+    "title": "",
+    "description": "",
+    "priority": 5,
+    "size" : "normal",
+    "video": "",
+    "images": [
+                "./images/01.png",
+                "./images/02.png"
+              ],
+    "titleImage": 0,
+    "URL": "",
+    "public": true
+  },
+  { 
+    "id": 7,
+    "title": "",
+    "description": "",
+    "priority": 10,
+    "size" : "normal",
+    "video": "",
+    "images": [
+                "./images/01.png",
+                "./images/02.png"
+              ],
+    "titleImage": 0,
+    "URL": "",
+    "public": true
+  },
+  { 
+    "id": 8,
+    "title": "",
+    "description": "",
+    "priority": 0,
+    "size" : "normal",
+    "video": "",
+    "images": [
+                "./images/01.png",
+                "./images/02.png"
+              ],
+    "titleImage": 0,
+    "URL": "",
+    "public": true
   }
 ]
