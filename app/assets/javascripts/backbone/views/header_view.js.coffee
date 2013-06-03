@@ -12,12 +12,18 @@ class CommunityFeed.Views.Header extends Backbone.View
 
   events:
     'click .signIn-btn': 'login'
+    'click': (e)->
+      e.preventDefault()
+      e.stopPropagation()
 
   render: ->
     @$el.html @template()
     return this
 
-  login: ->
+  login: (e)->
+    e.preventDefault()
+    e.stopPropagation()
+
     @$el.slideUp 'fast', =>
       @template = JST["backbone/templates/header_logIn_template"]
       @render()

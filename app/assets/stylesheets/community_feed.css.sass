@@ -3,17 +3,19 @@
 
 
 // ********************************************************************************** GENERAL
+.float-right
+  float: right
+
+.float-left
+  float: left
 
 
-// ********************************************************************************** MAIN HEADER
+// ********************************************************************************** MAIN HEADER & NAVIGATION
 .mainHeader
   width: 100%
   position: absolute
   top: 0
   height: 4em
-
-  .signIn-btn
-    float: right
 
   .imgTop
     display: block
@@ -22,6 +24,78 @@
   nav
     width: 100%
     height: 2.7em
+    text-align: center
+
+    .home-btn
+      padding: 0.2em 3.3em 0 3.3em
+
+    .center
+      width: 975px
+      display: inline-block
+
+    a
+      font-family: "Open Sans",helvetica,sans-serif
+      display: inline-block
+      color: rgb(255, 255, 255)
+      text-decoration: none
+      text-shadow: none
+      font-size: 11px
+      cursor: pointer
+
+    ul
+      list-style-type: none
+    li
+      text-align: center
+      float: left
+      border-left: 1px solid #020202
+      &:last-of-type
+        border-right: 1px solid #020202
+
+      a
+        border-left: 1px solid #4c4c4c
+        width: 100px
+        height: 21px
+        padding: 15px 10px 7px
+        text-transform: uppercase
+        transition: background 0.05s linear 0s
+
+        &#opportunities-link
+          background: url("/assets/career-bg.png") repeat-x scroll 0px -15px transparent
+          &:hover
+            background: url("/assets/career-bg.png") repeat-x scroll 0px -10px transparent
+        &#community-link
+          background: url("/assets/community-bg.png") repeat-x scroll 0px -7px transparent
+
+        &#education-link
+          background: url("/assets/school-bg.png") repeat-x scroll 0px -15px transparent
+          &:hover
+            background: url("/assets/school-bg.png") repeat-x scroll 0px -10px transparent
+        &#adventures-link
+          background: url("/assets/adventure-bg.png") repeat-x scroll 0px -15px transparent
+          &:hover
+            background: url("/assets/adventure-bg.png") repeat-x scroll 0px -10px transparent
+
+    .signup-box
+      padding-top: 8px
+
+      .signup-btn
+        font-size: 13px
+        padding: 5px 0 5px 8px
+        vertical-align: middle
+
+      .join
+        color: #fff
+        display: inline-block
+        text-align: center
+        background: #a6ce3a
+        border: 2px solid #9ac130
+        -webkit-border-radius: 4px
+        -moz-border-radius: 4px
+        border-radius: 4px
+        cursor: pointer
+        text-shadow: 0 0 2px #888
+        vertical-align: middle
+        padding: 5px 8px
 
 .darkGradientBackground
   background-color: rgb(40, 40, 40)
@@ -35,7 +109,7 @@
   +transition(all 1s ease-in-out)
 
   &.shrink_to_login_size
-    height: 3em
+    height: 2.7em
 
 
 // ********************************************************************************** STORY
