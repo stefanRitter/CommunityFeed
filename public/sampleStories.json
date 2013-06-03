@@ -1,0 +1,44 @@
+[
+  { 
+    "id": 0,
+    "title": "",
+    "description": "",
+    "priority": 5,
+    "size" : "normal",
+    "video": "",
+    "images": [
+                "./images/01.png",
+                "./images/02.png"
+              ],
+    "titleImage": 0,
+    "URL": ""
+  },
+  { 
+    "id": 1,
+    "title": "",
+    "description": "",
+    "priority": 10,
+    "size" : "big",
+    "video": "",
+    "images": [
+                "./images/01.png",
+                "./images/02.png"
+              ],
+    "titleImage": 0,
+    "URL": ""
+  },
+  { 
+    "id": 2,
+    "title": "",
+    "description": "",
+    "priority": 0,
+    "size" : "tall",
+    "video": "",
+    "images": [
+                "./images/01.png",
+                "./images/02.png"
+              ],
+    "titleImage": 0,
+    "URL": ""
+  }
+]

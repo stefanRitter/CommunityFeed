@@ -1,0 +1,2 @@
+module CommunityFeedHelper
+end
