@@ -1,6 +1,19 @@
 
 @import base
 
+// ********************************************************************************** PLACEHOLDERS & MIXINS
+
+//layers boxshadows to create 3d cube effect
+=boxeffect($depth, $bottomcolor, $rightcolor)
+
+  $layers: 1px 0 1px $bottomcolor, 0 1px 1px $rightcolor
+
+  @for $i from 1 through $depth
+    $layers: append($layers, (#{$i + 1}px #{$i}px 1px $bottomcolor), comma)
+    $layers: append($layers, (#{$i}px #{$i + 1}px 1px $rightcolor), comma)
+
+  +box-shadow($layers)
+
 
 // ********************************************************************************** GENERAL
 .float-right
@@ -124,26 +137,32 @@
   +transition(all 1s ease-in-out)
 
   &.shrink_to_login_size
-    height: 2.7em
+    height: 3em
 
 
 // ********************************************************************************** STORY
+.feed
+  width: 93%
+  margin: 0 auto
+
 .story
   float: left
-  margin: 2em
+  margin: 2% 2% 0 0
+  // border: solid 1px #dedede
 
-  width: 2em
-  height: 2em
-  background-color: green
+  &.break
+    margin-right: 0
+
+  width: 23.5%
+  background-color: whitesnow
 
   &.big
-    width: 5em
-    height: 2em
-    background-color: red
+    width: 48%
 
-  &.tall
-    height: 5em
-    background-color: blue
+@for $i from 1 through 10
+  .priority#{$i}
+    +boxeffect($i, #dedede, #cccbcb)
+    +transform(translate(0, #{-$i}px))
 
 
 // ********************************************************************************** USER PROFILE & NEW STORY
