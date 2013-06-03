@@ -77,13 +77,16 @@
 
     .signup-box
       padding-top: 8px
+      &.signedIn
+        float: right
+        padding-right: 3.3em
 
       .signup-btn
         font-size: 13px
         padding: 5px 0 5px 8px
         vertical-align: middle
 
-      .join
+      .green-btn
         color: #fff
         display: inline-block
         text-align: center
@@ -96,6 +99,12 @@
         text-shadow: 0 0 2px #888
         vertical-align: middle
         padding: 5px 8px
+
+      input[type=text]
+        height: 1.8em
+        background: none
+        border: dashed 1px grey
+        color: white
 
 .darkGradientBackground
   background-color: rgb(40, 40, 40)

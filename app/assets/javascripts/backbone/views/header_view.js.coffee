@@ -12,6 +12,9 @@ class CommunityFeed.Views.Header extends Backbone.View
 
   events:
     'click .signIn-btn': 'login'
+    'click .logout': 'logout'
+    'click .home-btn': ->
+      alert "this will take you back to the homepage"
     'click': (e)->
       e.preventDefault()
       e.stopPropagation()
@@ -30,3 +33,14 @@ class CommunityFeed.Views.Header extends Backbone.View
       @$el.slideDown ->
         $('.mainHeader_spacer').addClass 'shrink_to_login_size'
         CommunityFeed.user.set 'loggedIn', true
+
+  logout: (e)->
+    e.preventDefault()
+    e.stopPropagation()
+
+    $('.mainHeader_spacer').removeClass 'shrink_to_login_size'
+    @$el.slideUp 'fast', =>
+      @template = JST["backbone/templates/header_logOut_template"]
+      @render()
+      @$el.slideDown 'slow', ->
+        CommunityFeed.user.set 'loggedIn', false
