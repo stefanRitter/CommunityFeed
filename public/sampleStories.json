@@ -35,7 +35,7 @@
     "id": 2,
     "title": "",
     "description": "",
-    "priority": 0,
+    "priority": 1,
     "size" : "normal",
     "video": "",
     "images": [],
@@ -285,7 +285,7 @@
     "id": 18,
     "title": "",
     "description": "",
-    "priority": 0,
+    "priority": 1,
     "size" : "normal",
     "video": "",
     "images": [
@@ -378,7 +378,7 @@
     "id": 24,
     "title": "",
     "description": "",
-    "priority": 0,
+    "priority": 1,
     "size" : "normal",
     "video": "",
     "images": [
@@ -455,7 +455,7 @@
     "id": 29,
     "title": "",
     "description": "",
-    "priority": 0,
+    "priority": 1,
     "size" : "normal",
     "video": "",
     "images": [
@@ -548,7 +548,7 @@
     "id": 35,
     "title": "",
     "description": "",
-    "priority": 0,
+    "priority": 1,
     "size" : "normal",
     "video": "",
     "images": [
@@ -564,7 +564,7 @@
     "id": 36,
     "title": "",
     "description": "",
-    "priority": 0,
+    "priority": 1,
     "size" : "normal",
     "video": "",
     "images": [],
