@@ -149,20 +149,24 @@
   float: left
   margin: 2% 2% 0 0
   // border: solid 1px #dedede
+  overflow: hidden
+  width: 23.5%
+  background-color: whitesnow
+
+  img
+    width: 100%
 
   &.break
     margin-right: 0
 
-  width: 23.5%
-  background-color: whitesnow
-
   &.big
-    width: 48%
+    width: 49%
 
+// create the priority classes which extrude a story out of the grid towards the user
 @for $i from 1 through 10
   .priority#{$i}
     +boxeffect($i, #dedede, #cccbcb)
-    +transform(translate(0, #{-$i}px))
+    +transform(translate(#{-$i}px, #{-$i}px)) // reposition according to 3D extrusion
 
 
 // ********************************************************************************** USER PROFILE & NEW STORY
@@ -178,7 +182,7 @@
   right: 0
 
   &.slide
-    +transform(translate(95.5%, 0))
+    +transform(translate(95.6%, 0))
   &:hover
     +transform(translate(0, 0))
 
@@ -187,6 +191,6 @@
   left: 0
 
   &.slide
-    +transform(translate(-95.5%, 0))
+    +transform(translate(-95.6%, 0))
   &:hover
     +transform(translate(0, 0))

@@ -27,12 +27,16 @@ class CommunityFeed.Views.Stories extends Backbone.View
   count: 0
 
   initialize: ->
+    # render on session change @model = user
     @model.bind 'change', () =>
       @render()
+
     @collection.bind 'add', @renderOne
     @collection.bind 'reset', () =>
       @render()
-    # TODO: re-render on resize
+
+    $(window).on 'resize', () =>
+      @render()
 
   renderOne: (story) ->
     tempView = new CommunityFeed.Views.Story( model: story )
