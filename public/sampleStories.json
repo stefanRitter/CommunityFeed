@@ -3,11 +3,11 @@
     "id": 0,
     "title": "",
     "description": "",
-    "priority": 6,
+    "priority": 8,
     "size" : "big",
     "video": "",
     "images": [
-                "/assets/community-bg.png",
+                "/assets/escapeStory.png",
                 "/assets/02.png"
               ],
     "titleImage": 0,
@@ -18,7 +18,7 @@
     "id": 1,
     "title": "",
     "description": "",
-    "priority": 1,
+    "priority": 0,
     "size" : "normal",
     "video": "",
     "images": [
@@ -93,16 +93,16 @@
     "id": 6,
     "title": "",
     "description": "",
-    "priority": 0,
+    "priority": 5,
     "size" : "normal",
     "video": "",
     "images": [
-                "/assets/school-bg.png",
+                "/assets/eduStory.png",
                 "/assets/02.png"
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": false
   },
   { 
     "id": 7,
@@ -123,16 +123,16 @@
     "id": 8,
     "title": "",
     "description": "",
-    "priority": 0,
-    "size" : "normal",
+    "priority": 4,
+    "size" : "big",
     "video": "",
     "images": [
-                "/assets/career-bg.png",
+                "/assets/newMembers.png",
                 "/assets/02.png"
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": false
   },
   { 
     "id": 9,
@@ -171,10 +171,7 @@
     "priority": 0,
     "size" : "normal",
     "video": "",
-    "images": [
-                "/assets/school-bg.png",
-                "/assets/02.png"
-              ],
+    "images": [],
     "titleImage": 0,
     "URL": "",
     "public": true
@@ -297,14 +294,14 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": false
   },
   { 
     "id": 20,
     "title": "",
     "description": "",
     "priority": 0,
-    "size" : "normal",
+    "size" : "big",
     "video": "",
     "images": [
                 "/assets/adventure-bg.png",
@@ -312,14 +309,14 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": false
   },
   { 
     "id": 21,
     "title": "",
     "description": "",
-    "priority": 0,
-    "size" : "normal",
+    "priority": 8,
+    "size" : "big",
     "video": "",
     "images": [
                 "/assets/community-bg.png",
@@ -327,7 +324,7 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": false
   },
   { 
     "id": 22,
@@ -381,10 +378,7 @@
     "priority": 0,
     "size" : "normal",
     "video": "",
-    "images": [
-                "/assets/community-bg.png",
-                "/assets/02.png"
-              ],
+    "images": [],
     "titleImage": 0,
     "URL": "",
     "public": true
@@ -453,7 +447,7 @@
     "id": 30,
     "title": "",
     "description": "",
-    "priority": 0,
+    "priority": 5,
     "size" : "normal",
     "video": "",
     "images": [
@@ -546,10 +540,7 @@
     "priority": 0,
     "size" : "normal",
     "video": "",
-    "images": [
-                "/assets/adventure-bg.png",
-                "/assets/02.png"
-              ],
+    "images": [],
     "titleImage": 0,
     "URL": "",
     "public": true
@@ -633,7 +624,7 @@
     "id": 42,
     "title": "",
     "description": "",
-    "priority": 0,
+    "priority": 4,
     "size" : "normal",
     "video": "",
     "images": [

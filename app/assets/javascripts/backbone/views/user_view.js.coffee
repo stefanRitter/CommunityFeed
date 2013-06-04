@@ -15,7 +15,7 @@ class CommunityFeed.Views.User extends Backbone.View
       @$el.html @template( @model.toJSON() )
       setTimeout =>
           @$el.addClass 'slide'
-        , 700
+        , 1000
     else
       @$el.addClass 'hidden'
       setTimeout =>

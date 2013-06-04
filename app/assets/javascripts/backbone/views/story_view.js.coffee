@@ -3,7 +3,7 @@
 
 
 class CommunityFeed.Views.Story extends Backbone.View
-  className: 'story'
+  className: 'story fadeInUp'
   template: JST["backbone/templates/story_template"]
 
   initialize: () ->
@@ -39,22 +39,24 @@ class CommunityFeed.Views.Stories extends Backbone.View
       @render()
 
   renderOne: (story) ->
-    tempView = new CommunityFeed.Views.Story( model: story )
-    tempView.render()
-
-    if @count % @num_columns() == 0 and @count != 0
-      $(tempView.el).addClass('break')
-
     if story.get('public') or @loggedIn
-      @$el.append tempView.el
+      tempView = new CommunityFeed.Views.Story( model: story )
+      tempView.render()
+
       @count += 1
       @count += 1 if story.get('size') is 'big'
+      if @count % @num_columns() == 0 and @count != 0
+        $(tempView.el).addClass('break')
+
+      @$el.append tempView.el
 
   render: ->
     @loggedIn = @model.get('loggedIn')
-    @$el.empty()
-    @count = 1
-    @collection.forEach(@renderOne, @)
+    @$el.fadeOut 'slow', =>
+      @$el.empty()
+      @count = 0
+      @collection.forEach(@renderOne, @)
+      @$el.fadeIn('slow')
     return this
 
   num_columns: ->
