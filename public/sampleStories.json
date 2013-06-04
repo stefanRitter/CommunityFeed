@@ -12,7 +12,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": [ "escapeStory"]
   },
   { 
     "id": 1,
@@ -22,12 +23,13 @@
     "size" : "normal",
     "video": "",
     "images": [
-                "/assets/career-bg.png",
+                "/assets/aspiration.png",
                 "/assets/02.png"
               ],
     "titleImage": 0,
     "URL": "",
-    "public": false
+    "public": false,
+    "labels": [ "aspiration" ]
   },
   { 
     "id": 2,
@@ -36,13 +38,11 @@
     "priority": 0,
     "size" : "normal",
     "video": "",
-    "images": [
-               "/assets/community-bg.png",
-                "/assets/02.png"
-              ],
+    "images": [],
     "titleImage": 0,
     "URL": "",
-    "public": false
+    "public": false,
+    "labels": [ "job" ]
   },
   { 
     "id": 3,
@@ -57,7 +57,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": false
+    "public": false,
+    "labels": []
   },
   { 
     "id": 4,
@@ -72,7 +73,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": []
   },
   { 
     "id": 5,
@@ -87,7 +89,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": false
+    "public": false,
+    "labels": []
   },
   { 
     "id": 6,
@@ -102,7 +105,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": false
+    "public": false,
+    "labels": []
   },
   { 
     "id": 7,
@@ -117,13 +121,14 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": []
   },
   { 
     "id": 8,
     "title": "",
     "description": "",
-    "priority": 4,
+    "priority": 9,
     "size" : "big",
     "video": "",
     "images": [
@@ -132,7 +137,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": false
+    "public": false,
+    "labels": []
   },
   { 
     "id": 9,
@@ -147,7 +153,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": []
   },
   { 
     "id": 10,
@@ -162,19 +169,21 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": false
+    "public": false,
+    "labels": []
   },
   { 
     "id": 11,
     "title": "",
     "description": "",
-    "priority": 0,
+    "priority": 8,
     "size" : "normal",
     "video": "",
     "images": [],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": []
   },
   { 
     "id": 12,
@@ -189,7 +198,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": []
   },
   { 
     "id": 13,
@@ -204,7 +214,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": []
   },
   { 
     "id": 14,
@@ -219,7 +230,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": false
+    "public": false,
+    "labels": []
   },
   { 
     "id": 15,
@@ -234,7 +246,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": []
   },
   { 
     "id": 16,
@@ -249,13 +262,14 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": []
   },
   { 
     "id": 17,
     "title": "",
     "description": "",
-    "priority": 0,
+    "priority": 10,
     "size" : "normal",
     "video": "",
     "images": [
@@ -264,7 +278,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": []
   },
   { 
     "id": 18,
@@ -279,22 +294,21 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": false
+    "public": false,
+    "labels": []
   },
   { 
     "id": 19,
     "title": "",
     "description": "",
-    "priority": 0,
+    "priority": 5,
     "size" : "normal",
     "video": "",
-    "images": [
-                "/assets/school-bg.png",
-                "/assets/02.png"
-              ],
+    "images": [],
     "titleImage": 0,
     "URL": "",
-    "public": false
+    "public": false,
+    "labels": []
   },
   { 
     "id": 20,
@@ -309,7 +323,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": false
+    "public": false,
+    "labels": []
   },
   { 
     "id": 21,
@@ -324,7 +339,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": false
+    "public": false,
+    "labels": []
   },
   { 
     "id": 22,
@@ -339,13 +355,14 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": false
+    "public": false,
+    "labels": []
   },
   { 
     "id": 23,
     "title": "",
     "description": "",
-    "priority": 0,
+    "priority": 6,
     "size" : "normal",
     "video": "",
     "images": [
@@ -354,7 +371,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": []
   },
   { 
     "id": 24,
@@ -369,19 +387,21 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": []
   },
   { 
     "id": 25,
     "title": "",
     "description": "",
-    "priority": 0,
+    "priority": 10,
     "size" : "normal",
     "video": "",
     "images": [],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": []
   },
   { 
     "id": 26,
@@ -396,7 +416,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": false
+    "public": false,
+    "labels": []
   },
   { 
     "id": 27,
@@ -411,7 +432,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": []
   },
   { 
     "id": 28,
@@ -426,7 +448,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": []
   },
   { 
     "id": 29,
@@ -441,7 +464,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": []
   },
   { 
     "id": 30,
@@ -450,13 +474,11 @@
     "priority": 5,
     "size" : "normal",
     "video": "",
-    "images": [
-                "/assets/career-bg.png",
-                "/assets/02.png"
-              ],
+    "images": [],
     "titleImage": 0,
     "URL": "",
-    "public": false
+    "public": false,
+    "labels": []
   },
   { 
     "id": 31,
@@ -471,7 +493,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": []
   },
   { 
     "id": 32,
@@ -486,7 +509,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": []
   },
   { 
     "id": 33,
@@ -501,7 +525,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": []
   },
   { 
     "id": 34,
@@ -516,7 +541,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": false
+    "public": false,
+    "labels": []
   },
   { 
     "id": 35,
@@ -531,7 +557,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": []
   },
   { 
     "id": 36,
@@ -543,7 +570,8 @@
     "images": [],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": []
   },
   { 
     "id": 37,
@@ -558,13 +586,14 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": []
   },
   { 
     "id": 38,
     "title": "",
     "description": "",
-    "priority": 0,
+    "priority": 10,
     "size" : "normal",
     "video": "",
     "images": [
@@ -573,7 +602,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": []
   },
   { 
     "id": 39,
@@ -588,7 +618,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": false
+    "public": false,
+    "labels": []
   },
   { 
     "id": 40,
@@ -603,7 +634,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": []
   },
   { 
     "id": 41,
@@ -618,7 +650,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": []
   },
   { 
     "id": 42,
@@ -633,7 +666,8 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": false
+    "public": false,
+    "labels": []
   },
   { 
     "id": 43,
@@ -648,6 +682,7 @@
               ],
     "titleImage": 0,
     "URL": "",
-    "public": true
+    "public": true,
+    "labels": []
   }
 ]
