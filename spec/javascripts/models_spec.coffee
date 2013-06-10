@@ -45,3 +45,8 @@ describe 'Collection: CommunityFeed.Collections.Stories', ->
     expect( stories.models ).not.toBeUndefined()
     expect( stories.model ).toBe( CommunityFeed.Models.Story )
 
+  it 'can add and get a model by id', ->
+    stories.reset([ { id: 5000 }, { id: 2000 } ])
+    newStory = stories.get(5000)
+    expect( newStory.get('id') ).toBe(5000)
+
