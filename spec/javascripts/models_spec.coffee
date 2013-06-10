@@ -3,6 +3,7 @@
 #
 
 require '/assets/application.js'
+require '/assets/sinon.js'
 
 
 # MODELS & COLLECTIONS
@@ -29,6 +30,13 @@ describe 'Model: CommunityFeed.Models.User', ->
 describe 'Model: CommunityFeed.Models.Story', ->
   it 'is defined', ->
     expect( CommunityFeed.Models.Story ).not.toBeUndefined()
+
+  it 'fires a change event when a title is edited', ->
+    eventSpy = sinon.spy()
+    story = new CommunityFeed.Models.Story({ title: 'firstTitle'})
+    story.on('change', eventSpy)
+    story.set('title', 'secondTitle')
+    expect( eventSpy.called ).toBe(true)
 
 
 # Stories
